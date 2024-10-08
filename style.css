@@ -94,4 +94,14 @@ button:hover {
     background-color: rgb(113, 147, 215);
 }
 
+@media (width > 660px) {
 
+    html {
+        font-size: 18px;
+    }
+
+    .box {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
